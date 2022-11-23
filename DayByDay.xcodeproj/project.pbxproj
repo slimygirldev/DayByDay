@@ -22,6 +22,7 @@
 		985AC28C292E5DE200480833 /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985AC28B292E5DE200480833 /* DataBaseManager.swift */; };
 		985AC28E292E5E0300480833 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985AC28D292E5E0300480833 /* AuthManager.swift */; };
 		985AC290292E5E2100480833 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985AC28F292E5E2100480833 /* StorageManager.swift */; };
+		988FED11292E84CB007228F3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 988FED10292E84CB007228F3 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		985AC28B292E5DE200480833 /* DataBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
 		985AC28D292E5E0300480833 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		985AC28F292E5E2100480833 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		988FED10292E84CB007228F3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AA73A6168D214A80EC40C3D8 /* Pods_DayByDay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DayByDay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -125,6 +127,7 @@
 		985AC27D292E5C3D00480833 /* Ressources */ = {
 			isa = PBXGroup;
 			children = (
+				988FED10292E84CB007228F3 /* GoogleService-Info.plist */,
 				985AC26F292D3DD900480833 /* Assets.xcassets */,
 				985AC266292D3DD800480833 /* AppDelegate.swift */,
 				985AC268292D3DD800480833 /* SceneDelegate.swift */,
@@ -176,7 +179,6 @@
 				8BDF148E2C855CE7CF406A58 /* Pods-DayByDay.debug.xcconfig */,
 				922850E8D5D5799238C47250 /* Pods-DayByDay.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -242,6 +244,7 @@
 			files = (
 				985AC273292D3DD900480833 /* LaunchScreen.storyboard in Resources */,
 				985AC270292D3DD900480833 /* Assets.xcassets in Resources */,
+				988FED11292E84CB007228F3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
