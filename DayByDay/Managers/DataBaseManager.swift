@@ -16,22 +16,19 @@ final class DatabaseManager {
     private init() {
         
     }
-    public func insertBlogPost(with post: String,
-                               user: String,
-                               completion: @escaping (Bool) -> Void) {
+    public func insert(blogPost: BlogPost,
+                       user: User,
+                       completion: @escaping (Bool) -> Void) {
     }
 
-    public func getAllPosts(with post: String,
-                            user: String,
-                            completion: @escaping ([String]) -> Void) {
+    public func getAllPosts(completion: @escaping ([BlogPost]) -> Void) {
     }
 
-    public func getPostsForUser(with post: String,
-                            user: String,
-                            completion: @escaping ([String]) -> Void) {
+    public func getPosts(forUser: User,
+                         completion: @escaping ([BlogPost]) -> Void) {
     }
 
-    public func insertUser(user: String,
+    public func insertUser(user: User,
                             completion: @escaping (Bool) -> Void) {
     }
 }
